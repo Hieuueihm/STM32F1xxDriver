@@ -1,0 +1,87 @@
+#include <define.h>
+#ifndef INC_STM32F103XX_H_
+#define INC_STM32F103XX_H_
+
+
+#define __vo volatile
+
+// define system base address
+#define FLASH_BASEADDR 0x08000000U
+#define SRAM_BASEADDR 0x20000000U
+#define ROM_BASEADDR 0x1FFF0000U
+
+
+//define peripherals base address
+#define PERIPH_BASEADDR 0x40000000U
+#define APB1PERIPH_BASEADDR PERIPH_BASEADDR
+#define APB2PERIPH_BASEADDR 0x40010000U
+#define AHBPERIPH_BASEADDR 0x40018000U
+
+
+// define GPIO base address
+#define GPIOA_BASEADDR (APB2PERIPH_BASEADDR + 0x0800)
+#define GPIOB_BASEADDR (APB2PERIPH_BASEADDR + 0x0C00)
+#define GPIOC_BASEADDR (APB2PERIPH_BASEADDR + 0x1000)
+#define GPIOD_BASEADDR (APB2PERIPH_BASEADDR + 0x1400)
+#define GPIOE_BASEADDR (APB2PERIPH_BASEADDR + 0x1800)
+#define GPIOF_BASEADDR (APB2PERIPH_BASEADDR + 0x1C00)
+#define GPIOG_BASEADDR (APB2PERIPH_BASEADDR + 0x2000)
+#define RCC_BASEADDR 0x40021000U
+
+
+#define I2C1_BASEADDR (APB1PERIPH_BASEADDR + 0x5400)
+#define I2C2_BASEADDR (APB2PERIPH_BASEADDR + 0x5800)
+
+#define SPI2_BASEADDR (APB1PERIPH_BASEADDR + 0x3800)
+#define SPI3_BASEADDR (APB1PERIPH_BASEADDR + 0x4000)
+
+#define USART1_BASEADDR (APB2PERIPH_BASEADDR + 0x3800)
+#define USART2_BASEADDR (APB1PERIPH_BASEADDR + 0x4400)
+#define USART3_BASEADDR (APB1PERIPH_BASEADDR + 0x4800)
+#define UART4_BASEADDR (APB1PERIPH_BASEADDR + 0x4C00)
+#define UART5_BASEADDR (APB1PERIPH_BASEADDR + 0x5000)
+
+#define EXTI_BASEADDR (APB2PERIPH_BASEADDR + 0x4000)
+#define SPI1_BASEADDR (APB2PERIPH_BASEADDR + 0x3000)
+
+
+
+
+
+
+typedef struct {
+	union {
+		__vo unsigned long REG;
+		CRL_BITS BITS;
+	} CRL;
+	union{
+		__vo unsigned long REG;
+		CRH_BITS BITS;
+	} CRH;
+	union{
+		__vo unsigned long REG;
+		IDR_BITS BITS;
+	} IDR;
+	union{
+		__vo unsigned long REG;
+		ODR_BITS BITS;
+	} ODR;
+	union {
+		__vo unsigned long REG;
+		BSRR_BITS BITS;
+	} BSRR;
+
+	union{
+		__vo unsigned long REG;
+		BSR_BITS BITS;
+	} BSR;
+	union{
+		__vo unsigned long REG;
+		LCKR_BITS BITS;
+	} LCKR;
+} GPIO_RegDef_t;
+
+
+
+
+#endif
