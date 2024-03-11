@@ -61,6 +61,48 @@ Discarded input sections
  .debug_str     0x0000000000000000       0xde C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1b C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/Src/stm32f1_gpio.o
+ .text          0x0000000000000000        0x0 ./Drivers/Src/stm32f1_gpio.o
+ .data          0x0000000000000000        0x0 ./Drivers/Src/stm32f1_gpio.o
+ .bss           0x0000000000000000        0x0 ./Drivers/Src/stm32f1_gpio.o
+ .text.GPIO_PeriClockControl
+                0x0000000000000000      0x174 ./Drivers/Src/stm32f1_gpio.o
+ .text.GPIO_Init
+                0x0000000000000000       0x12 ./Drivers/Src/stm32f1_gpio.o
+ .debug_info    0x0000000000000000      0xa87 ./Drivers/Src/stm32f1_gpio.o
+ .debug_abbrev  0x0000000000000000      0x10c ./Drivers/Src/stm32f1_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./Drivers/Src/stm32f1_gpio.o
+ .debug_rnglists
+                0x0000000000000000       0x1a ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0x84 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000      0xaa2 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0x8e ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0xa0 ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000      0x19a ./Drivers/Src/stm32f1_gpio.o
+ .debug_macro   0x0000000000000000       0xac ./Drivers/Src/stm32f1_gpio.o
+ .debug_line    0x0000000000000000      0x545 ./Drivers/Src/stm32f1_gpio.o
+ .debug_str     0x0000000000000000     0x4fa7 ./Drivers/Src/stm32f1_gpio.o
+ .comment       0x0000000000000000       0x44 ./Drivers/Src/stm32f1_gpio.o
+ .debug_frame   0x0000000000000000       0x60 ./Drivers/Src/stm32f1_gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x2d ./Drivers/Src/stm32f1_gpio.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
@@ -71,6 +113,15 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Src/main.o
  .data          0x0000000000000000        0x0 ./Src/main.o
  .bss           0x0000000000000000        0x0 ./Src/main.o
+ .debug_macro   0x0000000000000000      0xaa2 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x8e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x51 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x103 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./Src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./Src/main.o
+ .debug_macro   0x0000000000000000       0xa0 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x19a ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
@@ -513,6 +564,7 @@ Linker script and memory map
 LOAD C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
 LOAD C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+LOAD ./Drivers/Src/stm32f1_gpio.o
 LOAD ./Src/main.o
 LOAD ./Src/syscalls.o
 LOAD ./Src/sysmem.o
@@ -796,24 +848,17 @@ LOAD C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x0000000000000013       0x19 ./Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x0000000000000000      0xf56
- .debug_macro   0x0000000000000000       0x67 ./Src/main.o
- .debug_macro   0x0000000000000067      0xaa2 ./Src/main.o
- .debug_macro   0x0000000000000b09       0x22 ./Src/main.o
- .debug_macro   0x0000000000000b2b       0x8e ./Src/main.o
- .debug_macro   0x0000000000000bb9       0x51 ./Src/main.o
- .debug_macro   0x0000000000000c0a      0x103 ./Src/main.o
- .debug_macro   0x0000000000000d0d       0x6a ./Src/main.o
- .debug_macro   0x0000000000000d77      0x1df ./Src/main.o
+.debug_macro    0x0000000000000000       0x75
+ .debug_macro   0x0000000000000000       0x75 ./Src/main.o
 
-.debug_line     0x0000000000000000      0x4d3
- .debug_line    0x0000000000000000      0x458 ./Src/main.o
- .debug_line    0x0000000000000458       0x7b ./Startup/startup_stm32f103c8tx.o
+.debug_line     0x0000000000000000      0x4df
+ .debug_line    0x0000000000000000      0x464 ./Src/main.o
+ .debug_line    0x0000000000000464       0x7b ./Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x0000000000000000     0x3b69
- .debug_str     0x0000000000000000     0x3b3a ./Src/main.o
-                                       0x3c95 (size before relaxing)
- .debug_str     0x0000000000003b3a       0x2f ./Startup/startup_stm32f103c8tx.o
+.debug_str      0x0000000000000000     0x4877
+ .debug_str     0x0000000000000000     0x4848 ./Src/main.o
+                                       0x49a3 (size before relaxing)
+ .debug_str     0x0000000000004848       0x2f ./Startup/startup_stm32f103c8tx.o
                                          0x67 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0x54
